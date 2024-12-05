@@ -1,0 +1,7 @@
+@import url("src/style/constants.css");
+
+.section-transfer {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 3% 0 50px;
+}

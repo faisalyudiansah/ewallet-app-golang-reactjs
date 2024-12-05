@@ -1,0 +1,379 @@
+@import url("src/style/constants.css");
+
+.header-text {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.header-secondary-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--primary-gray);
+}
+
+.container-card-dashboard {
+    padding: 24px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 23px;
+}
+
+.card-dashboard-1 {
+    background-color: var(--background-card-dashboard-1);
+    width: 377px;
+    height: 187px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 26px 22px 26px 22px;
+}
+
+.card-dashboard-2 {
+    background-color: var(--background-card-dashboard-2);
+    width: 330px;
+    height: 187px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 26px 22px 26px 22px;
+}
+
+.card-dashboard-3 {
+    background-color: var(--background-card-dashboard-3);
+    width: 330px;
+    height: 187px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 26px 22px 26px 22px;
+}
+
+.container-balance {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.text-balance {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: var(--primary-blue);
+}
+
+.icon-password {
+    cursor: pointer;
+}
+
+.svg-card {
+    display: block;
+}
+
+.text-money-info {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-wallet-number {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--primary-blue);
+}
+
+.text-income-date {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--primary-green);
+}
+
+.text-expense-date {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--primary-red);
+}
+
+.container-text-money-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-recent-transactions {
+    padding: 73px 0 42px 0;
+}
+
+.container-header-recent-transactions {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.container-card-recent-transaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-recent-transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 10px 24px;
+    border: 1px solid var(--secondary-gray);
+    border-radius: 15px;
+}
+
+.text-card-recent-transaction {
+    width: 333px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    height: 83px;
+}
+
+.text-money-card-recent-transaction-bottom {
+    width: 168px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    height: 83px;
+}
+
+.text-money-card-recent-transaction-top {
+    display: none;
+}
+
+.text-green {
+    color: var(--primary-green);
+}
+
+.text-red {
+    color: var(--primary-red);
+}
+
+.container-empty-recent-transaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container-text-empty-recent-transaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-primary-empty-recent-transaction {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.text-secondary-empty-recent-transaction {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--primary-gray);
+}
+
+.svg-recent-transaction {
+    display: block;
+}
+
+@media screen and (max-width:640px) {
+    .header-text {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .container-card-dashboard {
+        flex-direction: column;
+    }
+
+    .card-dashboard-1 {
+        width: 100%;
+    }
+
+    .card-dashboard-2 {
+        width: 100%;
+    }
+
+    .card-dashboard-3 {
+        width: 100%;
+    }
+
+    .svg-card {
+        display: none;
+    }
+
+    .card-recent-transaction {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        padding: 30px 0 30px 24px;
+    }
+
+    .text-card-recent-transaction {
+        width: 333px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        height: 40px;
+    }
+
+    .text-money-card-recent-transaction-bottom {
+        display: none;
+    }
+
+    .text-money-card-recent-transaction-top {
+        width: 168px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        height: 40px;
+    }
+
+    .svg-recent-transaction {
+        display: none;
+    }
+}
+
+@media screen and (min-width:640px) {
+    .container-card-dashboard {
+        flex-direction: column;
+    }
+
+    .card-dashboard-1 {
+        width: 100%;
+    }
+
+    .card-dashboard-2 {
+        width: 100%;
+    }
+
+    .card-dashboard-3 {
+        width: 100%;
+    }
+
+    .card-recent-transaction {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        padding: 30px 0 30px 24px;
+    }
+
+    .text-card-recent-transaction {
+        width: 333px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        height: 40px;
+    }
+
+    .text-money-card-recent-transaction-bottom {
+        width: 168px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:1024px) {}
+
+@media screen and (min-width:1280px) {
+    .container-card-dashboard {
+        flex-direction: row;
+    }
+
+    .card-dashboard-1 {
+        width: 100%;
+    }
+
+    .card-dashboard-2 {
+        width: 100%;
+    }
+
+    .card-dashboard-3 {
+        width: 100%;
+    }
+
+    .card-recent-transaction {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0 10px 24px;
+        border: 1px solid var(--secondary-gray);
+        border-radius: 15px;
+    }
+
+    .text-card-recent-transaction {
+        width: 333px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        height: 83px;
+    }
+
+    .text-money-card-recent-transaction-bottom {
+        width: 168px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        height: 83px;
+    }
+}
+
+@media screen and (min-width:1441px) {
+    .card-dashboard-1 {
+        width: 50%;
+    }
+
+    .card-dashboard-2 {
+        width: 50%;
+    }
+
+    .card-dashboard-3 {
+        width: 50%;
+    }
+}
+

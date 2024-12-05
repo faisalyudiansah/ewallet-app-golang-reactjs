@@ -7,14 +7,15 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/apperrors"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/constants"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/controllers"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/dtos"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers"
-	helpercontext "git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers/helper_context"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/middlewares"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/mocks"
+	"ewallet-server-v1/apperrors"
+	"ewallet-server-v1/constants"
+	"ewallet-server-v1/controllers"
+	"ewallet-server-v1/dtos"
+	"ewallet-server-v1/helpers"
+	helpercontext "ewallet-server-v1/helpers/helper_context"
+	"ewallet-server-v1/middlewares"
+	"ewallet-server-v1/mocks"
+
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 )

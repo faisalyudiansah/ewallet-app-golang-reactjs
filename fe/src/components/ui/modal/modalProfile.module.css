@@ -1,0 +1,145 @@
+@import url("src/style/constants.css");
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 53px 44.5px 53px 44.5px;
+    border-radius: 9px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    width: 402px;
+}
+
+.modal-container-image {
+    position: relative;
+}
+
+.modal-profile-image {
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.modal-profile-image:hover {
+    transform: scale(1.03);
+    filter: brightness(0.8);
+}
+
+.modal-svg-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-svg-pencil {
+    position: absolute;
+    top: 100px;
+    right: 4px;
+    transition: transform 0.3s ease;
+}
+
+.modal-svg-pencil:hover {
+    transform: scale(1.15);
+}
+
+.modal-profile-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-profile-name {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.modal-profile-email {
+    color: var(--primary-gray);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.modal-profile-edit-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.modal-label-input-edit-profile{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.modal-profile-input:focus{
+    outline: none;
+}
+
+.modal-profile-input {
+    width: 100%;
+    color: var(--primary-blue);
+    margin-top: 16px;
+    padding: 14px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.modal-profile-input::placeholder{
+    color: var(--primary-pink);
+}
+
+.modal-profile-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.modal-profile-buttons .Button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Button[variant='primary'] {
+    background-color: #007bff;
+    color: white;
+}
+
+.Button[variant='secondary'] {
+    background-color: #6c757d;
+    color: white;
+}
+
+.Button[variant='edit-profile'] {
+    background-color: #28a745;
+    color: white;
+}

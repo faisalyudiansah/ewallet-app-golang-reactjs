@@ -1,0 +1,164 @@
+@import url("src/style/constants.css");
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 93px 40px 93px 40px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    flex-direction: column;
+    gap: 34px;
+    width: 507px;
+    height: 647px;
+}
+
+.modal-header-title {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 63px;
+    color: var(--primary-blue);
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 51px;
+}
+
+.modal-input {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    border: none;
+    border-radius: 8px;
+    width: 427px;
+    padding: 18px 20px 18px 20px;
+    background-color: var(--background-input);
+}
+
+.modal-input:focus {
+    outline: none;
+}
+
+.modal-input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: var(--placeholder-input);
+}
+
+.input-container {
+    position: relative;
+    width: 427px;
+}
+
+.currency-prefix {
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 58px;
+    height: 100%;
+    color: white;
+    background-color: var(--primary-blue);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.input-amount {
+    padding-left: 80px;
+}
+
+.modal-balance-info {
+    display: flex;
+    align-self: flex-start;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--primary-gray);
+}
+
+.modal-container-btn-submit {
+    margin-top: 51px;
+}
+
+.modal-success-container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.modal-success-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-success-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--primary-blue);
+}
+
+.modal-success-amount {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.modal-success-date {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary-gray);
+}
+
+@media screen and (max-width:640px) {
+    .modal-content {
+        width: 100%;
+    }
+
+    .modal-input {
+        width: 100%;
+    }
+
+    .input-container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:640px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:1024px) {}
+
+@media screen and (min-width:1280px) {}
+
+@media screen and (min-width:1441px) {}

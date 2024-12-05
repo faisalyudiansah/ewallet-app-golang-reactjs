@@ -1,4 +1,4 @@
-module git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api
+module ewallet-server-v1
 
 go 1.19
 

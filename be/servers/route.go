@@ -1,7 +1,8 @@
 package servers
 
 import (
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/middlewares"
+	"ewallet-server-v1/middlewares"
+
 	"github.com/gin-gonic/gin"
 )
 

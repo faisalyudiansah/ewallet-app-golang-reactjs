@@ -9,7 +9,8 @@ import (
 	"syscall"
 	"time"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/databases"
+	"ewallet-server-v1/databases"
+
 	"github.com/joho/godotenv"
 )
 

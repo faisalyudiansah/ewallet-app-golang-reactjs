@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	helpers "git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers"
+	helpers "ewallet-server-v1/helpers"
 	mock "github.com/stretchr/testify/mock"
 )
 

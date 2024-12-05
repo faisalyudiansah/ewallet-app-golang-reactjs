@@ -4,8 +4,9 @@ import (
 	"errors"
 	"net/http"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/apperrors"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers"
+	"ewallet-server-v1/apperrors"
+	"ewallet-server-v1/helpers"
+
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 )

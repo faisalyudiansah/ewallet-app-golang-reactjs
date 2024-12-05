@@ -1,0 +1,53 @@
+@import url("src/style/constants.css");
+
+.modal {
+    position: fixed;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    right: 3%;
+    background-color: var(--background-alert-success);
+    border-radius: 8px;
+    z-index: 1000;
+    width: 279px;
+    height: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s;
+}
+
+.modalContent {
+    color: var(--primary-green);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width:640px) {
+    .modal {
+        right: 6%;
+    }
+}
+
+@media screen and (min-width:640px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:1024px) {}
+
+@media screen and (min-width:1280px) {}
+
+@media screen and (min-width:1441px) {}

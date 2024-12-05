@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	helpercontext "git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers/helper_context"
+	helpercontext "ewallet-server-v1/helpers/helper_context"
 )
 
 type TransactionRepository interface {

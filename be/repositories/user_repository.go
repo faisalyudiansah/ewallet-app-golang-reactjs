@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/dtos"
-	helpercontext "git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers/helper_context"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/models"
+	"ewallet-server-v1/dtos"
+	helpercontext "ewallet-server-v1/helpers/helper_context"
+	"ewallet-server-v1/models"
 )
 
 type UserRepository interface {

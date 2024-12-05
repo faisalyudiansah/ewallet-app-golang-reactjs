@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	logger "git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers/logger"
+	logger "ewallet-server-v1/helpers/logger"
 	mock "github.com/stretchr/testify/mock"
 )
 

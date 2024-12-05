@@ -3,7 +3,7 @@ package helpers
 import (
 	"reflect"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/dtos"
+	"ewallet-server-v1/dtos"
 )
 
 func jsonFieldName(fieldName string) string {

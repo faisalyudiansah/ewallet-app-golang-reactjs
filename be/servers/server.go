@@ -3,11 +3,11 @@ package servers
 import (
 	"database/sql"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/controllers"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers/logger"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/repositories"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/services"
+	"ewallet-server-v1/controllers"
+	"ewallet-server-v1/helpers"
+	"ewallet-server-v1/helpers/logger"
+	"ewallet-server-v1/repositories"
+	"ewallet-server-v1/services"
 )
 
 type HandlerOps struct {

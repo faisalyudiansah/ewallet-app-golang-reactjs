@@ -1,0 +1,28 @@
+@import url("src/style/constants.css");
+
+.title-nav-auth {
+    color: var(--primary-blue);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.container-nav-auth {
+    padding: 31px 42px;
+}
+
+@media screen and (max-width:640px) {
+    .container-nav-auth {
+        padding: 38px 16px;
+    }
+}
+
+@media screen and (min-width:640px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:1024px) {}
+
+@media screen and (min-width:1280px) {}
+
+@media screen and (min-width:1441px) {}

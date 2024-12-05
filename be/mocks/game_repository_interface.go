@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	models "git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/models"
+	models "ewallet-server-v1/models"
 	mock "github.com/stretchr/testify/mock"
 )
 

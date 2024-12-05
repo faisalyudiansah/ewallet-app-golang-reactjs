@@ -5,11 +5,12 @@ import (
 	"strconv"
 	"time"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/apperrors"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/constants"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers"
-	helpercontext "git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers/helper_context"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/services"
+	"ewallet-server-v1/apperrors"
+	"ewallet-server-v1/constants"
+	"ewallet-server-v1/helpers"
+	helpercontext "ewallet-server-v1/helpers/helper_context"
+	"ewallet-server-v1/services"
+
 	"github.com/gin-gonic/gin"
 )
 

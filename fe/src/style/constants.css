@@ -1,0 +1,25 @@
+:root {
+    --primary-blue: #4D47C3;
+    --primary-pink: #A7A3FF;
+    --primary-gray: #95999E;
+    --primary-green: #33A720;
+    --primary-red: #F60707;
+    --placeholder-input: #A7A3FF;
+    --background-input: #F0EFFF;
+    --background-sidenav: #F6F4F5;
+    --secondary-blue: #6c67cf;
+    --secondary-text: #B0B0B0;
+    --secondary-gray: #EDE6E7;
+    --secondary-red: #FFDDCA;
+    --secondary-gray-hover: #dfdadb;
+    --third-gray: #c2c3c4;
+    --background-card-dashboard-1: #F9F9F9;
+    --background-card-dashboard-2: #C9FFD8;
+    --background-card-dashboard-3: #FFDDCA;
+    --border-table: #E2E8F0;
+    --text-table-head: #4A5568;
+    --text-table-body: #2D3748;
+    --hover-input: #e6e5ff;
+    --invalid-input: #FEEFE7;
+    --background-alert-success: #EAFCEF;
+}

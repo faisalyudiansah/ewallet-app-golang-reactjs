@@ -3,11 +3,11 @@ package services
 import (
 	"context"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/apperrors"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/dtos"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/helpers"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/models"
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/repositories"
+	"ewallet-server-v1/apperrors"
+	"ewallet-server-v1/dtos"
+	"ewallet-server-v1/helpers"
+	"ewallet-server-v1/models"
+	"ewallet-server-v1/repositories"
 )
 
 type ResetPasswordInterface interface {

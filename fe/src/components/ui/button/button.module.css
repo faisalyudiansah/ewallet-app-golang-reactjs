@@ -1,0 +1,104 @@
+@import url("src/style/constants.css");
+
+.button {
+    padding: 15px 56px;
+    border: none;
+    border-radius: 9px;
+    width: 143px;
+    height: 58px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.button-primary {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+.button-secondary {
+    background-color: white;
+    color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+}
+
+.button-login {
+    width: 369px;
+    height: 59px;
+    color: white;
+    background-color: var(--primary-blue);
+}
+
+.button-register {
+    width: 430px;
+    height: 59px;
+    color: white;
+    background-color: var(--primary-blue);
+}
+
+.button-editProfile {
+    width: 313px;
+    height: 60px;
+    color: white;
+    background-color: var(--primary-blue);
+}
+
+.button-submitModal {
+    width: 427px;
+    height: 59px;
+    color: white;
+    background-color: var(--primary-blue);
+}
+
+.button-closeModal {
+    width: 369px;
+    height: 59px;
+    color: white;
+    background-color: var(--primary-blue);
+}
+
+.button:not(:disabled).button-primary:hover,
+.button:not(:disabled).button-login:hover,
+.button:not(:disabled).button-register:hover,
+.button:not(:disabled).button-editProfile:hover,
+.button:not(:disabled).button-submitModal:hover,
+.button:not(:disabled).button-closeModal:hover {
+    background-color: var(--secondary-blue);
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+@media screen and (max-width:640px) {
+    .button-login {
+        width: 354px;
+    }
+
+    .button-register {
+        width: 354px;
+    }
+
+    .button-submitModal {
+        width: 310px;
+    }
+
+    .button-closeModal {
+        width: 310px;
+    }
+}
+
+@media screen and (min-width:640px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:1024px) {}
+
+@media screen and (min-width:1280px) {}
+
+@media screen and (min-width:1441px) {}

@@ -3,7 +3,7 @@ package apperrors
 import (
 	"errors"
 
-	"git.garena.com/sea-labs-id/bootcamp/batch-04/faisal.yudiansah/assignment-e-wallet-rest-api/constants"
+	"ewallet-server-v1/constants"
 )
 
 var (
